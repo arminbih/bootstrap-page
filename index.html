@@ -62,7 +62,11 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/startwork.png" alt="...">
+        <picture>
+          <source media="(max-width: 444px)" srcset="img/startworksmall.png" />
+          <source media="(max-width:445px)" srcset="img/startwork.png" />
+          <img src="img/startwork.png" alt="">
+        </picture>
         <div class="carousel-caption">
           <h1 class="display-2">Bootstrap</h1>
           <h3>Complete Website Layout</h3>
@@ -71,15 +75,16 @@
         </div>
       </div>
       <div class="carousel-item">
+        <picture>
+          <source media="(max-width: 444px)" srcset="img/startmorningsmall.jpg" />
+          <source media="(max-width:445px)" srcset="img/startmorning.jpg" />
+          <img src="img/startmorning.jpg" alt="">
+        </picture>
         <div class="carousel-caption">
           <h2 class="display-4">Design Made Easy</h2>
           <p class="lead">Where is counts</p>
         </div>
-        <picture>
-          <source media="(min-width: 401px)" srcset="img/startworksmall.png" />
-          <source media="(max-width:443px)" srcset="img/startwork.png" />
-          <img src="img/startwork.jpg" alt="">
-        </picture>
+
       </div>
       <div class="carousel-item">
         <div class="carousel-caption">
@@ -87,7 +92,11 @@
           <p>This page was made using Bootstrap 4</p>
           <p>Work smarter not harder</p>
         </div>
-        <img src="img/endday.jpg" alt="...">
+        <picture>
+          <source media="(max-width: 444px)" srcset="img/enddaysmall.jpg" />
+          <source media="(max-width:445px)" srcset="img/endday.jpg" />
+          <img src="img/endday.jpg" alt="">
+        </picture>
       </div>
     </div>
     <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
