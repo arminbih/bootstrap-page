@@ -220,7 +220,7 @@ figure {
   margin: 0!important;
 }
 .fixed-wrap {
-  clip: rect(0, auto, auto, 0);
+  clip: rect(0, auto, auto, 0); 
   position: absolute;
   top: 0;
   left: 0;
